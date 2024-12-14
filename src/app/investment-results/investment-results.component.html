@@ -1,0 +1,23 @@
+<p *ngIf="!investmentResults"></p>
+
+<table *ngIf="investmentResults">
+    <thead>
+        <tr>
+            <th>Year</th>
+            <th>Annual Investment</th>
+            <th>Intrest year</th>
+            <th>Total Intrest</th>
+            <th>Invested Captial</th>
+        </tr>
+    </thead>
+    <tbody *ngFor="let res of investmentResults">
+        <tr>
+            <td>{{res.year}}</td>
+            <td>{{res.valueEndOfYear | currency:'USD'}}</td>
+            <td>{{res.interest | currency}}</td>
+            <td>{{res.totalInterest | currency}}</td>
+            <td>{{res.totalAmountInvested | currency}}</td>
+        </tr>
+        
+    </tbody>
+</table>
