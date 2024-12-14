@@ -5,9 +5,12 @@ The main objective of this project is to create a front end angular web applicat
 ## Download and Install VS code and Nodejs
 ## Create various components as needed.
 1.Header component ,User Input Component,App Component using ng generate component componentName
+
 2.Design and implement all the neccessary html and css files as per requirement or else use the given files.
+
 3.Implement the logic and use Directive for two way binding.
-4.Create a component for investment-result to calculate the investments.
+
+4.Create a component for investment-result to calculate the investments using ngModel,pipes,several other.
 
 Sample page :-
 
