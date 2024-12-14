@@ -1,0 +1,6 @@
+<app-header></app-header>
+<app-user-input (calculatedValue)="calculateInvestmentResults($event)">
+</app-user-input>
+<app-investment-results [investmentResults]="resultsData()"/> 
+<!-- We have addded resultsData() beacuse we are using signals or else we will resultsData only when using type
+ -->
